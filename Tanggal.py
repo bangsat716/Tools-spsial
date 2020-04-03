@@ -14,7 +14,7 @@ def TheX (s):
                 sys.stdout.flush()
                 time.sleep(1./12)
 os.system('clear')
-TheX(M + 'TOOLS DI PERBARUI jum,at 03 April wib 19:45')
+TheX(M + 'TOOLS DI PERBARUI Sabtu 04 April wib 02:45')
 TheX(H + 'Author      : M_aref')
 TheX(K + 'Youtube     : The-X-Cyber')
 TheX(B + 'Whatsapp    : 083177336282')
