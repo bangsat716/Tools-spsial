@@ -39,6 +39,9 @@ sleep 2
 python2 R.py
 sleep 2
 clear
+python2 Tanggal.py
+sleep 2
+clear
 python2 A.py
 sleep 2
 clear
@@ -73,7 +76,9 @@ echo "\033[1;92mON \033[1;91m[\033[1;37m09\033[1;91m] \033[1;92m: \033[1;37mProf
 echo "   \033[1;37m---- \033[1;92m:"
 echo "\033[1;92mON \033[1;91m[\033[1;37m10\033[1;91m] \033[1;92m: \033[1;37mWEBDAV"
 echo "   \033[1;37m---- \033[1;92m:"
-echo "\033[1;33m!! \033[1;91m[\033[1;37m11\033[1;91m] \033[1;92m: \033[1;37mInstall bahan"
+echo "\033[1;92mON \033[1;91m[\033[1;37m11\033[1;91m] \033[1;92m: \033[1;37mINFO Facebook"
+echo "   \033[1;37m---- \033[1;92m:"
+echo "\033[1;33m!! \033[1;91m[\033[1;37m12\033[1;91m] \033[1;92m: \033[1;37mInstall bahan"
 echo "   \033[1;37m---- \033[1;92m:"
 echo "\033[1;34m?? \033[1;91m[\033[1;37m00\033[1;91m] \033[1;92m: \033[1;37mExit"
 echo "\033[1;91m[\033[1;37m★\033[1;91m]\033[1;37m=======================================\033[1;91m[\033[1;37m★\033[1;91m]\033[1;37m"
@@ -191,6 +196,17 @@ sh Webdav.sh
 fi
 
 if [ $pil = 11 ] || [ $pil = 11 ]
+then
+clear
+echo "  \033[1;92mTunggu sebentar\033[1;37m"
+python2 A.py
+sleep 3
+git clone https://github.com/bangsat716/info-fb
+cd info-fb
+python2 info.py
+fi  
+
+if [ $pil = 12 ] || [ $pil = 12 ]
 then
 clear
 echo "  \033[1;92mTunggu sebentar\033[1;37m"
