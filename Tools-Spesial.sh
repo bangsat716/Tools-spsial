@@ -62,23 +62,25 @@ echo "\033[1;92mON \033[1;91m[\033[1;37m02\033[1;91m] \033[1;92m: \033[1;37mHack
 echo "   \033[1;37m---- \033[1;92m:"
 echo "\033[1;92mON \033[1;91m[\033[1;37m03\033[1;91m] \033[1;92m: \033[1;37mSpam Whatsapp"
 echo "   \033[1;37m---- \033[1;92m:"
-echo "\033[1;92mON \033[1;91m[\033[1;37m04\033[1;91m] \033[1;92m: \033[1;37mA-RAT"
+echo "\033[1;92mON \033[1;91m[\033[1;37m04\033[1;91m] \033[1;92m: \033[1;37mDark-FB-9.9"
 echo "   \033[1;37m---- \033[1;92m:"
-echo "\033[1;92mON \033[1;91m[\033[1;37m05\033[1;91m] \033[1;92m: \033[1;37mBelajar Coding"
+echo "\033[1;92mON \033[1;91m[\033[1;37m05\033[1;91m] \033[1;92m: \033[1;37mA-RAT"
 echo "   \033[1;37m---- \033[1;92m:"
-echo "\033[1;92mON \033[1;91m[\033[1;37m06\033[1;91m] \033[1;92m: \033[1;37mReport Facebook"
+echo "\033[1;92mON \033[1;91m[\033[1;37m06\033[1;91m] \033[1;92m: \033[1;37mBelajar Coding"
 echo "   \033[1;37m---- \033[1;92m:"
-echo "\033[1;92mON \033[1;91m[\033[1;37m07\033[1;91m] \033[1;92m: \033[1;37mSpam Call"
+echo "\033[1;92mON \033[1;91m[\033[1;37m07\033[1;91m] \033[1;92m: \033[1;37mReport Facebook"
 echo "   \033[1;37m---- \033[1;92m:"
-echo "\033[1;92mON \033[1;91m[\033[1;37m08\033[1;91m] \033[1;92m: \033[1;37mPHISING"
+echo "\033[1;92mON \033[1;91m[\033[1;37m08\033[1;91m] \033[1;92m: \033[1;37mSpam Call"
 echo "   \033[1;37m---- \033[1;92m:"
-echo "\033[1;92mON \033[1;91m[\033[1;37m09\033[1;91m] \033[1;92m: \033[1;37mProfil Guard Facebook"
+echo "\033[1;92mON \033[1;91m[\033[1;37m09\033[1;91m] \033[1;92m: \033[1;37mPHISING"
 echo "   \033[1;37m---- \033[1;92m:"
-echo "\033[1;92mON \033[1;91m[\033[1;37m10\033[1;91m] \033[1;92m: \033[1;37mWEBDAV"
+echo "\033[1;92mON \033[1;91m[\033[1;37m10\033[1;91m] \033[1;92m: \033[1;37mProfil Guard Facebook"
 echo "   \033[1;37m---- \033[1;92m:"
-echo "\033[1;92mON \033[1;91m[\033[1;37m11\033[1;91m] \033[1;92m: \033[1;37mINFO Facebook"
+echo "\033[1;92mON \033[1;91m[\033[1;37m11\033[1;91m] \033[1;92m: \033[1;37mWEBDAV"
 echo "   \033[1;37m---- \033[1;92m:"
-echo "\033[1;33m!! \033[1;91m[\033[1;37m12\033[1;91m] \033[1;92m: \033[1;37mInstall bahan"
+echo "\033[1;92mON \033[1;91m[\033[1;37m12\033[1;91m] \033[1;92m: \033[1;37mINFO Facebook"
+echo "   \033[1;37m---- \033[1;92m:"
+echo "\033[1;33m!! \033[1;91m[\033[1;37m13\033[1;91m] \033[1;92m: \033[1;37mInstall bahan"
 echo "   \033[1;37m---- \033[1;92m:"
 echo "\033[1;34m?? \033[1;91m[\033[1;37m00\033[1;91m] \033[1;92m: \033[1;37mExit"
 echo "\033[1;91m[\033[1;37m★\033[1;91m]\033[1;37m=======================================\033[1;91m[\033[1;37m★\033[1;91m]\033[1;37m"
@@ -123,12 +125,23 @@ clear
 echo "  \033[1;92mTunggu sebentar\033[1;37m"
 python2 A.py
 sleep 3
+git clone https://github.com/bangsat716/Dark-v9.9
+cd Dark-v9.9
+python2 Dark-v9.9.py
+fi
+
+if [ $pil = 5 ] || [ $pil = 05 ]
+then
+clear
+echo "  \033[1;92mTunggu sebentar\033[1;37m"
+python2 A.py
+sleep 3
 git clone https://github.com/bangsat716/A-RAT
 cd A-RAT
 python2 A-Rat.py
 fi
 
-if [ $pil = 5 ] || [ $pil = 05 ]
+if [ $pil = 6 ] || [ $pil = 06 ]
 then
 clear
 echo "  \033[1;92mTunggu sebentar\033[1;37m"
@@ -139,7 +152,7 @@ cd belajar-Coding
 sh belajar-coding.sh
 fi
 
-if [ $pil = 6 ] || [ $pil = 06 ]
+if [ $pil = 7 ] || [ $pil = 07 ]
 then
 clear
 echo "  \033[1;92mTunggu sebentar\033[1;37m"
@@ -151,7 +164,7 @@ unzip Report.zip
 python2 Report.py
 fi
 
-if [ $pil = 7 ] || [ $pil = 07 ]
+if [ $pil = 8 ] || [ $pil = 08 ]
 then
 clear
 echo "  \033[1;92mTunggu sebentar\033[1;37m"
@@ -162,7 +175,7 @@ cd Spam-telpon
 bash call.sh
 fi
 
-if [ $pil = 8 ] || [ $pil = 08 ]
+if [ $pil = 9 ] || [ $pil = 09 ]
 then
 clear
 echo "  \033[1;92mTunggu sebentar\033[1;37m"
@@ -173,7 +186,7 @@ cd weeman
 python2 weeman.py
 fi
 
-if [ $pil = 9 ] || [ $pil = 09 ]
+if [ $pil = 10 ] || [ $pil = 10 ]
 then
 clear
 echo "  \033[1;92mTunggu sebentar\033[1;37m"
@@ -184,7 +197,7 @@ cd propil-fb
 php fb.php
 fi
 
-if [ $pil = 10 ] || [ $pil = 10 ]
+if [ $pil = 11 ] || [ $pil = 11 ]
 then
 clear
 echo "  \033[1;92mTunggu sebentar\033[1;37m"
@@ -195,7 +208,7 @@ cd deface
 sh Webdav.sh
 fi
 
-if [ $pil = 11 ] || [ $pil = 11 ]
+if [ $pil = 12 ] || [ $pil = 12 ]
 then
 clear
 echo "  \033[1;92mTunggu sebentar\033[1;37m"
@@ -206,7 +219,7 @@ cd info-fb
 python2 info.py
 fi  
 
-if [ $pil = 12 ] || [ $pil = 12 ]
+if [ $pil = 13 ] || [ $pil = 13 ]
 then
 clear
 echo "  \033[1;92mTunggu sebentar\033[1;37m"
